@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ithelps.pro</id>
-    <title>ITHelps Blog</title>
+    <title>IT HELPS Blog</title>
     <updated>2025-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ithelps.pro"/>
-    <subtitle>ITHelps Blog</subtitle>
+    <subtitle>IT HELPS Blog</subtitle>
     <icon>https://ithelps.pro/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Публикация npm пакета в Sonatype Nexus]]></title>
@@ -103,7 +103,7 @@
         <author>
             <name>Артем Лобовский</name>
         </author>
-        <category label="Sonatype Nexus" term="Sonatype Nexus"/>
+        <category label="Nexus" term="Nexus"/>
         <category label="npm" term="npm"/>
     </entry>
 </feed>
