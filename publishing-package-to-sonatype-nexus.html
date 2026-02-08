@@ -9,9 +9,9 @@
 
 
 
-<link rel="search" type="application/opensearchdescription+xml" title="IT HELPS" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.4cdc1c30.css">
-<script src="/assets/js/runtime~main.6ef6e271.js" defer="defer"></script>
-<script src="/assets/js/main.d633486d.js" defer="defer"></script>
+<link rel="search" type="application/opensearchdescription+xml" title="IT HELPS" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.69a9b512.css">
+<script src="/assets/js/runtime~main.44f53a50.js" defer="defer"></script>
+<script src="/assets/js/main.7235cd90.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -39,10 +39,10 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-установить-и-запустить-nexus"><strong>1. Установить и запустить Nexus</strong><a href="#1-установить-и-запустить-nexus" class="hash-link" aria-label="Прямая ссылка на 1-установить-и-запустить-nexus" title="Прямая ссылка на 1-установить-и-запустить-nexus" translate="no">​</a></h3>
 <p>Развернуть Sonatype Nexus в Docker-контейнере по этой инструкции: [[Sonatype Nexus installation using Docker]]</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-включить-realm-для-npm"><strong>2. Включить Realm для npm</strong><a href="#2-включить-realm-для-npm" class="hash-link" aria-label="Прямая ссылка на 2-включить-realm-для-npm" title="Прямая ссылка на 2-включить-realm-для-npm" translate="no">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401184417.png" src="/assets/images/activate-nexus-realm-4ce662cb28b243de4367633ae094e617.png" width="1787" height="1128" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401184417.png" src="/assets/images/activate-nexus-realm-4ce662cb28b243de4367633ae094e617.png" width="1787" height="1128" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-создать-роль-для-чтения-и-записи-пакетов-в-репозиторий"><strong>3. Создать роль для чтения и записи пакетов в репозиторий</strong><a href="#3-создать-роль-для-чтения-и-записи-пакетов-в-репозиторий" class="hash-link" aria-label="Прямая ссылка на 3-создать-роль-для-чтения-и-записи-пакетов-в-репозиторий" title="Прямая ссылка на 3-создать-роль-для-чтения-и-записи-пакетов-в-репозиторий" translate="no">​</a></h3>
 <p>Открыть форму создания роли, нажав на странице настроек <strong>Security</strong> -&gt; <strong>Roles</strong> кнопку &quot;Create Role&quot;, и заполнить поля:</p>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401185153.png" src="/assets/images/create-nexus-user-role-6c35f713ae41f5b3863217e4bb23e778.png" width="1791" height="720" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401185153.png" src="/assets/images/create-nexus-user-role-6c35f713ae41f5b3863217e4bb23e778.png" width="1791" height="720" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p>Ниже в разделе <strong>Applied Privileges</strong> для добавления привилегий нажать кнопку &quot;Modify Applied Privileges&quot; и отфильтровать открывшийся список по значению &quot;npm&quot;, после этого выбрать привилегии:</p>
 <ul>
 <li class=""><code>nx-repository-view-npm-*-browse</code></li>
@@ -50,16 +50,16 @@
 <li class=""><code>nx-repository-view-npm-*-read</code>
 и сохранить кнопкой &quot;Confirm&quot;:</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401190722.png" src="/assets/images/modify-nexus-repo-applied-privileges-928e857ba5a9e50f137c21b80b95472d.png" width="1021" height="608" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401190722.png" src="/assets/images/modify-nexus-repo-applied-privileges-928e857ba5a9e50f137c21b80b95472d.png" width="1021" height="608" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p>Раздел <strong>Applied Roles</strong> оставить пустым:</p>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401191109.png" src="/assets/images/nexus-repo-applied-roles-b89e9a08ab77ed5a1f4d1dca0686b93c.png" width="1792" height="1239" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401191109.png" src="/assets/images/nexus-repo-applied-roles-b89e9a08ab77ed5a1f4d1dca0686b93c.png" width="1792" height="1239" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p>Создать роль, нажав кнопку &quot;Save&quot;.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-создать-пользователя-для-публикации-пакета"><strong>4. Создать пользователя для публикации пакета</strong><a href="#4-создать-пользователя-для-публикации-пакета" class="hash-link" aria-label="Прямая ссылка на 4-создать-пользователя-для-публикации-пакета" title="Прямая ссылка на 4-создать-пользователя-для-публикации-пакета" translate="no">​</a></h3>
 <p>Открыть форму создания роли, нажав на странице настроек <strong>Security</strong> -&gt; <strong>Users</strong> кнопку &quot;Create local user&quot;, и заполнить поля, переместив в конце формы только что созданную роль в правый столбец <strong>Granted</strong>:</p>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401191627.png" src="/assets/images/create-nexus-local-user-494e385f43c67625dd9d9ed01d6c2234.png" width="1795" height="1018" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401191627.png" src="/assets/images/create-nexus-local-user-494e385f43c67625dd9d9ed01d6c2234.png" width="1795" height="1018" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-создать-репозиторий"><strong>5. Создать репозиторий</strong><a href="#5-создать-репозиторий" class="hash-link" aria-label="Прямая ссылка на 5-создать-репозиторий" title="Прямая ссылка на 5-создать-репозиторий" translate="no">​</a></h3>
 <p>Неообходимо создать 3 части репозитория (proxy, hosted и group), принцип действия которых отражен на схеме:</p>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401192125.png" src="/assets/images/nexus-repositories-scheme-a44577a8371d66f9d5f4bd38359ca71e.png" width="1617" height="790" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401192125.png" src="/assets/images/nexus-repositories-scheme-a44577a8371d66f9d5f4bd38359ca71e.png" width="1617" height="790" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p>Для создания каждого из них нужно перейти в меню настроек <strong>Repository</strong> -&gt; <strong>Repositories</strong> и открыть форму создания кнопкой &quot;Create repository&quot;.</p>
 <p><strong>Для proxy-репозитория</strong> в открывшемся списке Recipe выбрать <code>npm (proxy)</code> и заполнить поля:</p>
 <ul>
@@ -67,21 +67,21 @@
 <li class=""><strong>Remote storage</strong> - адрес удаленного репозитория с пакетами (ввести адрес общедоступного <code>https://registry.npmjs.org</code>).
 Остальные поля оставить по умолчанию, затем создать репозиторий кнопкой &quot;Create repository&quot;:</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401193011.png" src="/assets/images/create-npm-proxy-repository-settings-ae320fd9ba19dc335e4f226752f4a5cd.png" width="1797" height="1352" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401193011.png" src="/assets/images/create-npm-proxy-repository-settings-ae320fd9ba19dc335e4f226752f4a5cd.png" width="1797" height="1352" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p><strong>Для hosted-репозитория</strong> в открывшемся списке Recipe выбрать <code>npm (hosted)</code> и заполнить поля:</p>
 <ul>
 <li class=""><strong>Name</strong> - предпочитаемое имя репозитория (желательно добавить в конце &quot;hosted&quot;);</li>
 <li class=""><strong>Deployment policy</strong> - политика повторного деплоя одной и той же версии.
 Остальные поля оставить по умолчанию, затем создать репозиторий кнопкой &quot;Create repository&quot;:</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401193157.png" src="/assets/images/create-npm-hosted-repository-settings-dcda69b0f1d317c0246f93b9dd361430.png" width="1796" height="1146" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401193157.png" src="/assets/images/create-npm-hosted-repository-settings-dcda69b0f1d317c0246f93b9dd361430.png" width="1796" height="1146" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p><strong>Для group-репозитория</strong> в открывшемся списке Recipe выбрать <code>npm (group)</code> и заполнить поля:</p>
 <ul>
 <li class=""><strong>Name</strong> - предпочитаемое имя репозитория (желательно добавить в конце &quot;group&quot;);</li>
 <li class=""><strong>Member repositories</strong> - список сгруппированных репозиториев, перетащить в правый столбец <strong>Members</strong> только что созданные proxy и hosted репозитории.
 Остальные поля оставить по умолчанию, затем создать репозиторий кнопкой &quot;Create repository&quot;:</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401194002.png" src="/assets/images/create-npm-group-repository-settings-cd49a6d406bb9695097bb8780a66102b.png" width="1796" height="999" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401194002.png" src="/assets/images/create-npm-group-repository-settings-cd49a6d406bb9695097bb8780a66102b.png" width="1796" height="999" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-авторизация-в-репозитории"><strong>6. Авторизация в репозитории</strong><a href="#6-авторизация-в-репозитории" class="hash-link" aria-label="Прямая ссылка на 6-авторизация-в-репозитории" title="Прямая ссылка на 6-авторизация-в-репозитории" translate="no">​</a></h3>
 <p>Для авторизации выполнить команду вида:</p>
 <p><code>npm login --registry=[адрес-репозитория]/repository/[имя-hosted-репозитория]/</code></p>
@@ -91,7 +91,7 @@
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">C:\Users\username\.npmrc</span><br></span></code></pre></div></div>
 <p>После авторизации в репозитории в файле появляется строка, которая должна иметь вид:</p>
 <p><code>//[адрес-репозитория]/repository/[имя-hosted-репозитория]/:_authToken=NpmToken.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</code></p>
-<p><img decoding="async" loading="lazy" alt="Pasted image 20250401200415.png" src="/assets/images/npmrc-nexus-repo-settings-d3522aa5333d3f537461c8c9536a93ff.png" width="1102" height="197" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Pasted image 20250401200415.png" src="/assets/images/npmrc-nexus-repo-settings-d3522aa5333d3f537461c8c9536a93ff.png" width="1102" height="197" style="cursor:zoom-in" tabindex="0" class="img_ev3q"></p>
 <p>В случае проблем с авторизацией или несоответствия формата строки авторизации в файле <code>.npmrc</code> — удалить строку из файла, сохранить его и попытаться авторизоваться заново.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-публикация-пакета-в-репозиторий"><strong>7. Публикация пакета в репозиторий</strong><a href="#7-публикация-пакета-в-репозиторий" class="hash-link" aria-label="Прямая ссылка на 7-публикация-пакета-в-репозиторий" title="Прямая ссылка на 7-публикация-пакета-в-репозиторий" translate="no">​</a></h3>
 <p>Для публикации пакета сначала выполнить сборку бандла, что как правило выполняется запуском скрипта:</p>
